@@ -5,14 +5,27 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
-header{
+
+/* utility */
+.dark-bg{
+    background-color: #1f2937;
+}
+.white-bg{
+    background-color:#ffffff
+}
+.light-bg{
+    background-color: #e5e7eb;
+}
+.container{
     background-color: #1f2937;
     padding-inline: 200px;
-    padding-top: 10px;
 }
+
+/* header section */
 .header-container {
     display: flex;
     justify-content: space-between;
+    padding-top: 15px;
 }
 .logo {
     color: #f9faf8;
@@ -29,14 +42,12 @@ a {
     color: #e5e7eb;
     font-size: 18px;
 }
-.intro-section{
-    background-color: #1f2937;
-    padding-inline: 200px;
-    padding-block: 75px;
-}
+
+/* intro/hero section */
 .intro-container{
     display: flex;
     gap: 25px;
+    padding-block: 75px;
 }
 .hero-container{
     display:flex;
