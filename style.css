@@ -17,7 +17,6 @@ body {
     background-color: #e5e7eb;
 }
 .container{
-    background-color: #1f2937;
     padding-inline: 200px;
 }
 
@@ -81,4 +80,39 @@ a {
     justify-content: center;
     align-items: center;
     color:#1f2937
+}
+
+/* info section */
+.info-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-block: 25px 100px;
+    gap: 25px;
+    padding-inline: 75px;
+}
+h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+.figure-set{
+    display: flex;
+}
+.figure-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.figure-container figcaption{
+    font-size: 18px;
+    color: #1f2937;
+    text-align: center;
+}
+.figure{
+    width: 150px;
+    aspect-ratio: 1;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
 }
