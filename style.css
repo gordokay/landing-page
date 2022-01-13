@@ -87,7 +87,7 @@ a {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-block: 25px 100px;
+    padding-block: 50px;
     gap: 25px;
     padding-inline: 75px;
 }
@@ -115,4 +115,49 @@ h2{
     aspect-ratio: 1;
     border: 3px solid #3882f6;
     border-radius: 10px;
+}
+/* quote section */
+.quote-container{
+    padding-block: 75px;
+    padding-inline: 100px;
+}
+blockquote p {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937
+}
+.quote-cap {
+    text-align: end;
+    font-weight: 700;
+    color: #1f2937;
+}
+/* cta section */
+.cta{
+    background-color: #3882f6;
+    width: 100%;
+    padding-block: 50px;
+    margin-block: 50px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h3{
+    color:#f9faf8;
+    font-weight: 700;
+}
+.cta-text p{
+    margin-top: 5px;
+    color:#e5e7eb;
+    font-weight: 400;
+}
+.cta button{
+    background-color:#3882f6;
+    font-weight: 700;
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    color:#f9faf8;
+    width: 100px;
+    height: 30px;
 }
