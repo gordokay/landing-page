@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  padding: 24px 0 64px 0;
+  padding: 24px 0 60px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -71,7 +71,7 @@ h1 {
   color: #f9faf8
 }
 
-header button {
+button {
   background-color: #3882f6;
   padding: 8px 24px;
   color: #f9faf8;
@@ -80,11 +80,12 @@ header button {
 }
 
 .info {
-  margin: 36px 0 64px 0;
+  margin: 36px 0 60px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 24px;
+  color:#1f2937;
 }
 
 .card-container {
@@ -108,4 +109,64 @@ header button {
 
 .card p {
   text-align: center;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 72px 0;
+  color: #1f2937;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 16px;
+}
+
+figcaption {
+  align-self: flex-end;
+  font-weight: 900;
+}
+
+.quote > * {
+  width: 50%;
+}
+
+blockquote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.cta-container {
+  padding: 60px 0 60px 0;
+}
+
+.cta-container > * {
+  width: 60%;
+}
+
+.cta {
+  margin: 0 auto;
+  padding: 48px 72px;
+  background-color: #3882f6;
+  display: flex;
+  color:#f9faf8;
+  justify-content: space-between;
+}
+
+.cta button {
+  border: 1px solid #f9faf8;
+}
+
+footer {
+  padding: 36px;
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+footer p {
+  width: fit-content;
+  margin: 0 auto;
 }
